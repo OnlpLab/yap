@@ -8,9 +8,9 @@ import (
 	"log"
 	"strconv"
 	"strings"
-	. "yap/alg/featurevector"
-	. "yap/alg/perceptron"
-	"yap/util"
+	. "github.com/OnlpLab/yap/alg/featurevector"
+	. "github.com/OnlpLab/yap/alg/perceptron"
+	"github.com/OnlpLab/yap/util"
 	// "sync"
 )
 

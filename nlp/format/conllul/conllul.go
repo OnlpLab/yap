@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"io"
 	"os"
-	"yap/nlp/format/lattice"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
 )
 
 type ConlluEdge struct {

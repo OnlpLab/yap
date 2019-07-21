@@ -2,9 +2,9 @@ package morph
 
 //
 // import (
-// 	. "yap/alg/transition"
-// 	. "yap/nlp/parser/dependency/transition"
-// 	nlp "yap/nlp/types"
+// 	. "github.com/OnlpLab/yap/alg/transition"
+// 	. "github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+// 	nlp "github.com/OnlpLab/yap/nlp/types"
 //
 // 	"fmt"
 // 	// "log"

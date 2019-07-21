@@ -1,9 +1,9 @@
 package transition
 
 import (
-	AbstractTransition "yap/alg/transition"
-	nlp "yap/nlp/types"
-	"yap/util"
+	AbstractTransition "github.com/OnlpLab/yap/alg/transition"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 )
 
 var rawTestSent nlp.BasicETaggedSentence = nlp.BasicETaggedSentence{

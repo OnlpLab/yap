@@ -1,8 +1,8 @@
 package perceptron
 
 import (
-	. "yap/alg/featurevector"
-	"yap/util"
+	. "github.com/OnlpLab/yap/alg/featurevector"
+	"github.com/OnlpLab/yap/util"
 )
 
 type Model interface {

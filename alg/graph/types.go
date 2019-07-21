@@ -1,6 +1,6 @@
 package graph
 
-import "yap/util"
+import "github.com/OnlpLab/yap/util"
 
 type BasicVertex int
 type BasicDirectedEdge [3]int

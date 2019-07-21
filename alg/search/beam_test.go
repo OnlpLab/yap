@@ -1,12 +1,12 @@
 package search
 
 // import (
-// 	"yap/alg/featurevector"
-// 	"yap/alg/perceptron"
-// 	"yap/alg/transition"
-// 	TransitionModel "yap/alg/transition/model"
-// 	"yap/nlp/parser/dependency"
-// 	"yap/util"
+// 	"github.com/OnlpLab/yap/alg/featurevector"
+// 	"github.com/OnlpLab/yap/alg/perceptron"
+// 	"github.com/OnlpLab/yap/alg/transition"
+// 	TransitionModel "github.com/OnlpLab/yap/alg/transition/model"
+// 	"github.com/OnlpLab/yap/nlp/parser/dependency"
+// 	"github.com/OnlpLab/yap/util"
 // 	"log"
 // 	"runtime"
 // 	"sort"

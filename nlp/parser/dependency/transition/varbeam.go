@@ -1,10 +1,10 @@
 package transition
 
 import (
-	"yap/alg/perceptron"
-	// "yap/nlp/parser/dependency"
+	"github.com/OnlpLab/yap/alg/perceptron"
+	// "github.com/OnlpLab/yap/nlp/parser/dependency"
 
-	"yap/alg/search"
+	"github.com/OnlpLab/yap/alg/search"
 )
 
 type VarBeam struct {

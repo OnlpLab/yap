@@ -1,24 +1,24 @@
 package app
 
 import (
-	"yap/alg/perceptron"
-	"yap/alg/search"
-	"yap/alg/transition"
+	"github.com/OnlpLab/yap/alg/perceptron"
+	"github.com/OnlpLab/yap/alg/search"
+	"github.com/OnlpLab/yap/alg/transition"
 
-	"yap/alg/transition/model"
-	// dep "yap/nlp/parser/dependency/transition"
-	"yap/eval"
-	"yap/nlp/format/conll"
-	"yap/nlp/format/mapping"
-	"yap/nlp/format/raw"
-	"yap/nlp/format/segmentation"
-	"yap/nlp/parser/disambig"
-	"yap/nlp/parser/joint"
-	nlp "yap/nlp/types"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg/transition/model"
+	// dep "github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+	"github.com/OnlpLab/yap/eval"
+	"github.com/OnlpLab/yap/nlp/format/conll"
+	"github.com/OnlpLab/yap/nlp/format/mapping"
+	"github.com/OnlpLab/yap/nlp/format/raw"
+	"github.com/OnlpLab/yap/nlp/format/segmentation"
+	"github.com/OnlpLab/yap/nlp/parser/disambig"
+	"github.com/OnlpLab/yap/nlp/parser/joint"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 
-	dep "yap/nlp/parser/dependency/transition"
-	"yap/nlp/parser/dependency/transition/morph"
+	dep "github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+	"github.com/OnlpLab/yap/nlp/parser/dependency/transition/morph"
 
 	"encoding/gob"
 	"fmt"
@@ -29,7 +29,7 @@ import (
 	// "strings"
 
 	"github.com/gonuts/commander"
-	"yap/nlp/format/conllu"
+	"github.com/OnlpLab/yap/nlp/format/conllu"
 )
 
 func init() {

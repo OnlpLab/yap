@@ -1,7 +1,7 @@
 package segmentation
 
 import (
-	nlp "yap/nlp/types"
+	nlp "github.com/OnlpLab/yap/nlp/types"
 	"io"
 	"os"
 	"strings"

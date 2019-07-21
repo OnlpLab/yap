@@ -3,14 +3,14 @@ package joint
 import (
 	"log"
 
-	. "yap/alg/transition"
-	. "yap/nlp/types"
-	"yap/util"
+	. "github.com/OnlpLab/yap/alg/transition"
+	. "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 
 	"strings"
-	dep "yap/nlp/parser/dependency/transition"
-	morph "yap/nlp/parser/dependency/transition/morph"
-	"yap/nlp/parser/disambig"
+	dep "github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+	morph "github.com/OnlpLab/yap/nlp/parser/dependency/transition/morph"
+	"github.com/OnlpLab/yap/nlp/parser/disambig"
 )
 
 var (

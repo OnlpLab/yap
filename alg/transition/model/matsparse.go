@@ -1,9 +1,9 @@
 package model
 
 // import (
-// 	. "yap/alg/featurevector"
-// 	"yap/alg/perceptron"
-// 	"yap/alg/transition"
+// 	. "github.com/OnlpLab/yap/alg/featurevector"
+// 	"github.com/OnlpLab/yap/alg/perceptron"
+// 	"github.com/OnlpLab/yap/alg/transition"
 // )
 
 // type MatrixSparse struct {

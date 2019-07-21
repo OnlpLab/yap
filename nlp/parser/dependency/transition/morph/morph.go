@@ -1,12 +1,12 @@
 package morph
 
 // import (
-// 	. "yap/alg"
-// 	// G "yap/alg/graph"
-// 	"yap/alg/transition"
-// 	. "yap/nlp/parser/dependency/transition"
-// 	nlp "yap/nlp/types"
-// 	"yap/util"
+// 	. "github.com/OnlpLab/yap/alg"
+// 	// G "github.com/OnlpLab/yap/alg/graph"
+// 	"github.com/OnlpLab/yap/alg/transition"
+// 	. "github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+// 	nlp "github.com/OnlpLab/yap/nlp/types"
+// 	"github.com/OnlpLab/yap/util"
 // 	"fmt"
 // 	// "log"
 // 	// "reflect"

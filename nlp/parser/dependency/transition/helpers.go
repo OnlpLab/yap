@@ -1,7 +1,7 @@
 package transition
 
 import (
-	. "yap/nlp/types"
+	. "github.com/OnlpLab/yap/nlp/types"
 	"fmt"
 	// "log"
 	"reflect"

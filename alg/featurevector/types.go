@@ -1,6 +1,6 @@
 package featurevector
 
-import "yap/util"
+import "github.com/OnlpLab/yap/util"
 
 // import "fmt"
 // import "log"

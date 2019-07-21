@@ -1,10 +1,10 @@
 package transition
 
 import (
-	. "yap/alg"
+	. "github.com/OnlpLab/yap/alg"
 	// "log"
-	// nlp "yap/nlp/types"
-	// "yap/util"
+	// nlp "github.com/OnlpLab/yap/nlp/types"
+	// "github.com/OnlpLab/yap/util"
 	// "math"
 	// "regexp"
 	// "sort"

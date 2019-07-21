@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"sort"
 	"strings"
-	"yap/alg"
-	"yap/alg/graph"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg"
+	"github.com/OnlpLab/yap/alg/graph"
+	"github.com/OnlpLab/yap/util"
 )
 
 type Morpheme struct {

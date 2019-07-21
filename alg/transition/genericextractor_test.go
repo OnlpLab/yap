@@ -1,7 +1,7 @@
 package transition
 
 // import (
-// 	"yap/algmodel/perceptron"
+// 	"github.com/OnlpLab/yap/algmodel/perceptron"
 // 	"strings"
 // 	"testing"
 // )

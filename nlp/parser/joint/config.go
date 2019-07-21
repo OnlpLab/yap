@@ -1,13 +1,13 @@
 package joint
 
 import (
-	. "yap/alg"
-	"yap/alg/search"
-	"yap/alg/transition"
-	dep "yap/nlp/parser/dependency/transition"
-	"yap/nlp/parser/disambig"
-	nlp "yap/nlp/types"
-	"yap/util"
+	. "github.com/OnlpLab/yap/alg"
+	"github.com/OnlpLab/yap/alg/search"
+	"github.com/OnlpLab/yap/alg/transition"
+	dep "github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+	"github.com/OnlpLab/yap/nlp/parser/disambig"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 
 	"fmt"
 	// "log"

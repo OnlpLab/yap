@@ -1,12 +1,12 @@
 package app
 
 import (
-	"yap/nlp/format/lattice"
-	"yap/nlp/format/raw"
-	// "yap/nlp/format/mapping"
-	"yap/nlp/parser/disambig"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
+	"github.com/OnlpLab/yap/nlp/format/raw"
+	// "github.com/OnlpLab/yap/nlp/format/mapping"
+	"github.com/OnlpLab/yap/nlp/parser/disambig"
 
-	nlp "yap/nlp/types"
+	nlp "github.com/OnlpLab/yap/nlp/types"
 
 	"fmt"
 	"log"

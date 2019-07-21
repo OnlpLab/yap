@@ -1,12 +1,12 @@
 package app
 
 import (
-	"yap/eval"
-	"yap/nlp/format/conll"
-	"yap/nlp/format/lattice"
-	dep "yap/nlp/parser/dependency/transition"
-	"yap/util"
-	"yap/util/conf"
+	"github.com/OnlpLab/yap/eval"
+	"github.com/OnlpLab/yap/nlp/format/conll"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
+	dep "github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+	"github.com/OnlpLab/yap/util"
+	"github.com/OnlpLab/yap/util/conf"
 
 	"log"
 	"os"

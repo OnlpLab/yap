@@ -3,9 +3,9 @@ package app
 import (
 	"fmt"
 	"log"
-	"yap/nlp/format/raw"
-	"yap/nlp/parser/xliter8"
-	"yap/nlp/types"
+	"github.com/OnlpLab/yap/nlp/format/raw"
+	"github.com/OnlpLab/yap/nlp/parser/xliter8"
+	"github.com/OnlpLab/yap/nlp/types"
 
 	"github.com/gonuts/commander"
 	"github.com/gonuts/flag"

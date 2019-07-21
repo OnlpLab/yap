@@ -3,10 +3,10 @@ package model
 import (
 	"encoding/gob"
 	"fmt"
-	. "yap/alg/featurevector"
-	"yap/alg/perceptron"
-	"yap/alg/transition"
-	"yap/util"
+	. "github.com/OnlpLab/yap/alg/featurevector"
+	"github.com/OnlpLab/yap/alg/perceptron"
+	"github.com/OnlpLab/yap/alg/transition"
+	"github.com/OnlpLab/yap/util"
 
 	"log"
 	"strings"

@@ -5,7 +5,7 @@ package raw
 // sentences end with a new line
 
 import (
-	nlp "yap/nlp/types"
+	nlp "github.com/OnlpLab/yap/nlp/types"
 
 	"bufio"
 	"bytes"

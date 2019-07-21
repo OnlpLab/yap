@@ -10,16 +10,16 @@ import (
 	"fmt"
 	"io"
 	"log"
-	//"yap/nlp/format/lattice"
+	//"github.com/OnlpLab/yap/nlp/format/lattice"
 
 	// "log"
 	"os"
 	"sort"
 	"strconv"
 	"strings"
-	"yap/nlp/parser/dependency/transition"
-	nlp "yap/nlp/types"
-	"yap/util"
+	"github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 )
 
 const (

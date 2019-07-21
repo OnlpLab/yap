@@ -2,7 +2,7 @@ package featurevector
 
 import (
 	"fmt"
-	"yap/util"
+	"github.com/OnlpLab/yap/util"
 	// "log"
 	"sort"
 	"strings"

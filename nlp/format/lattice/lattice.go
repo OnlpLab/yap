@@ -4,10 +4,10 @@ package lattice
 
 import (
 	"encoding/json"
-	"yap/alg/graph"
-	"yap/nlp/parser/xliter8"
-	nlp "yap/nlp/types"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg/graph"
+	"github.com/OnlpLab/yap/nlp/parser/xliter8"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 
 	"bufio"
 	"bytes"

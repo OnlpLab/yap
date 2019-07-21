@@ -1,7 +1,7 @@
 package morph
 
 // import (
-// 	. "yap/alg/transition"
+// 	. "github.com/OnlpLab/yap/alg/transition"
 // )
 //
 // type Idle struct {

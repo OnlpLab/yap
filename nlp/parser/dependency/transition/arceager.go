@@ -3,9 +3,9 @@ package transition
 import (
 	"fmt"
 	"log"
-	. "yap/alg/transition"
-	. "yap/nlp/types"
-	"yap/util"
+	. "github.com/OnlpLab/yap/alg/transition"
+	. "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 )
 
 var (

@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"log"
 	"sort"
-	"yap/alg/featurevector"
-	"yap/alg/perceptron"
-	"yap/alg/transition"
-	TransitionModel "yap/alg/transition/model"
-	"yap/nlp/parser/dependency"
-	nlp "yap/nlp/types"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg/featurevector"
+	"github.com/OnlpLab/yap/alg/perceptron"
+	"github.com/OnlpLab/yap/alg/transition"
+	TransitionModel "github.com/OnlpLab/yap/alg/transition/model"
+	"github.com/OnlpLab/yap/nlp/parser/dependency"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 )
 
 var SHOW_ORACLE = false

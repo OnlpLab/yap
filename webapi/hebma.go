@@ -1,19 +1,19 @@
 package webapi
 
 import (
-	"yap/nlp/format/lattice"
-	"yap/nlp/format/raw"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
+	"github.com/OnlpLab/yap/nlp/format/raw"
 	"log"
 	"fmt"
-	nlp "yap/nlp/types"
-	"yap/util"
-	"yap/nlp/parser/ma"
-	"yap/app"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
+	"github.com/OnlpLab/yap/nlp/parser/ma"
+	"github.com/OnlpLab/yap/app"
 	"strings"
 	"io"
 	"github.com/gonuts/commander"
 	"bytes"
-	"yap/nlp/parser/xliter8"
+	"github.com/OnlpLab/yap/nlp/parser/xliter8"
 	"sync"
 )
 
