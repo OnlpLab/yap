@@ -1,9 +1,9 @@
 package morph
 
 // import (
-// 	. "yap/alg"
-// 	nlp "yap/nlp/types"
-// 	// "yap/util"
+// 	. "github.com/OnlpLab/yap/alg"
+// 	nlp "github.com/OnlpLab/yap/nlp/types"
+// 	// "github.com/OnlpLab/yap/util"
 // 	"strings"
 // )
 //

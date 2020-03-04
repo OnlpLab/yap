@@ -1,7 +1,7 @@
 package perceptron
 
 import (
-	// "yap/alg/transition"
+	// "github.com/OnlpLab/yap/alg/transition"
 
 	// "encoding/gob"
 	"fmt"

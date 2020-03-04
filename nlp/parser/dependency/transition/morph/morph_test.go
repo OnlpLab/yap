@@ -1,15 +1,15 @@
 package morph
 
 import (
-	"yap/alg/perceptron"
-	"yap/nlp/parser/dependency"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg/perceptron"
+	"github.com/OnlpLab/yap/nlp/parser/dependency"
+	"github.com/OnlpLab/yap/util"
 
-	G "yap/alg/graph"
-	Transition "yap/alg/transition"
-	TransitionModel "yap/alg/transition/model"
-	T "yap/nlp/parser/dependency/transition"
-	nlp "yap/nlp/types"
+	G "github.com/OnlpLab/yap/alg/graph"
+	Transition "github.com/OnlpLab/yap/alg/transition"
+	TransitionModel "github.com/OnlpLab/yap/alg/transition/model"
+	T "github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+	nlp "github.com/OnlpLab/yap/nlp/types"
 	"log"
 	"runtime"
 	"sort"

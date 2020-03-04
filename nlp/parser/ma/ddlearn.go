@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"strings"
 
-	"yap/alg/graph"
-	"yap/nlp/format/conllu"
-	"yap/nlp/format/lattice"
-	"yap/nlp/format/raw"
-	. "yap/nlp/types"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg/graph"
+	"github.com/OnlpLab/yap/nlp/format/conllu"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
+	"github.com/OnlpLab/yap/nlp/format/raw"
+	. "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 )
 
 const (

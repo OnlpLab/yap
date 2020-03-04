@@ -2,13 +2,13 @@ package app
 
 import (
 	"os"
-	"yap/nlp/format/conllu"
-	"yap/nlp/format/lattice"
-	"yap/nlp/format/raw"
+	"github.com/OnlpLab/yap/nlp/format/conllu"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
+	"github.com/OnlpLab/yap/nlp/format/raw"
 
-	"yap/nlp/parser/ma"
-	nlp "yap/nlp/types"
-	// "yap/util"
+	"github.com/OnlpLab/yap/nlp/parser/ma"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	// "github.com/OnlpLab/yap/util"
 
 	"fmt"
 	"log"

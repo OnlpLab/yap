@@ -6,8 +6,8 @@ import (
 	// "log"
 	"strings"
 	"text/tabwriter"
-	. "yap/alg/featurevector"
-	"yap/util"
+	. "github.com/OnlpLab/yap/alg/featurevector"
+	"github.com/OnlpLab/yap/util"
 )
 
 var IDLE = &TypedTransition{'I', 0}

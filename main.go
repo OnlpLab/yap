@@ -3,13 +3,13 @@
 package main
 
 import (
-	_ "net/http/pprof"
-	"github.com/gonuts/commander"
-
 	"fmt"
 	"os"
-	"yap/app"
-	"yap/webapi"
+	_ "net/http/pprof"
+
+	"github.com/gonuts/commander"
+	"github.com/OnlpLab/yap/app"
+	"github.com/OnlpLab/yap/webapi"
 )
 
 var cmd = &commander.Command{

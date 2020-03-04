@@ -3,7 +3,7 @@ package types
 import (
 	"reflect"
 	"strings"
-	"yap/util"
+	"github.com/OnlpLab/yap/util"
 )
 
 const (

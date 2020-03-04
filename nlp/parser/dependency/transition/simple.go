@@ -1,11 +1,11 @@
 package transition
 
 import (
-	. "yap/alg"
-	"yap/alg/graph"
-	. "yap/alg/transition"
-	nlp "yap/nlp/types"
-	"yap/util"
+	. "github.com/OnlpLab/yap/alg"
+	"github.com/OnlpLab/yap/alg/graph"
+	. "github.com/OnlpLab/yap/alg/transition"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 
 	"fmt"
 	// "log"

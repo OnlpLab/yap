@@ -3,7 +3,7 @@ package webapi
 import (
 	"github.com/gonuts/commander"
 	"github.com/gonuts/flag"
-	"yap/app"
+	"github.com/OnlpLab/yap/app"
 )
 
 var ApiCommands = []*commander.Command{

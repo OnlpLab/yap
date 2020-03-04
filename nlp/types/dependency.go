@@ -1,8 +1,8 @@
 package types
 
 import (
-	"yap/alg/graph"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg/graph"
+	"github.com/OnlpLab/yap/util"
 )
 
 type DepNode interface {

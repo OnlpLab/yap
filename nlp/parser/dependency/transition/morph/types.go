@@ -1,8 +1,8 @@
 package morph
 
 import (
-	"yap/nlp/parser/dependency/transition"
-	nlp "yap/nlp/types"
+	"github.com/OnlpLab/yap/nlp/parser/dependency/transition"
+	nlp "github.com/OnlpLab/yap/nlp/types"
 	// "log"
 )
 

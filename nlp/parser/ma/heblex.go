@@ -1,10 +1,10 @@
 package ma
 
 import (
-	"yap/alg/graph"
-	"yap/nlp/format/lex"
-	. "yap/nlp/types"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg/graph"
+	"github.com/OnlpLab/yap/nlp/format/lex"
+	. "github.com/OnlpLab/yap/nlp/types"
+	"github.com/OnlpLab/yap/util"
 
 	"fmt"
 	"log"

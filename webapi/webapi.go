@@ -7,13 +7,13 @@ import (
 	"github.com/gonuts/commander"
 	"github.com/gonuts/flag"
 	"github.com/gorilla/mux"
-	"yap/nlp/format/lex"
-	"yap/nlp/types"
+	"github.com/OnlpLab/yap/nlp/format/lex"
+	"github.com/OnlpLab/yap/nlp/types"
 	"strings"
-	"yap/app"
-	"yap/nlp/parser/joint"
-	"yap/nlp/format/lattice"
-	"yap/nlp/format/conll"
+	"github.com/OnlpLab/yap/app"
+	"github.com/OnlpLab/yap/nlp/parser/joint"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
+	"github.com/OnlpLab/yap/nlp/format/conll"
 )
 
 

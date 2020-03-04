@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 	"sync"
-	"yap/alg/transition"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg/transition"
+	"github.com/OnlpLab/yap/util"
 )
 
 const (

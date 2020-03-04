@@ -1,9 +1,9 @@
 package app
 
 import (
-	"yap/nlp/format/lattice"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
 
-	nlp "yap/nlp/types"
+	nlp "github.com/OnlpLab/yap/nlp/types"
 
 	"fmt"
 	"log"

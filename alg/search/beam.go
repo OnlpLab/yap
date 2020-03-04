@@ -7,13 +7,13 @@ import (
 	"strings"
 	"sync"
 	"time"
-	"yap/alg/featurevector"
-	"yap/alg/perceptron"
-	"yap/alg/rlheap"
-	"yap/alg/stlheap"
-	"yap/alg/transition"
-	TransitionModel "yap/alg/transition/model"
-	"yap/util"
+	"github.com/OnlpLab/yap/alg/featurevector"
+	"github.com/OnlpLab/yap/alg/perceptron"
+	"github.com/OnlpLab/yap/alg/rlheap"
+	"github.com/OnlpLab/yap/alg/stlheap"
+	"github.com/OnlpLab/yap/alg/transition"
+	TransitionModel "github.com/OnlpLab/yap/alg/transition/model"
+	"github.com/OnlpLab/yap/util"
 )
 
 var (

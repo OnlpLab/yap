@@ -1,13 +1,13 @@
 package app
 
 import (
-	"yap/alg/perceptron"
-	"yap/alg/search"
-	"yap/alg/transition"
-	"yap/nlp/format/lattice"
-	"yap/nlp/parser/disambig"
+	"github.com/OnlpLab/yap/alg/perceptron"
+	"github.com/OnlpLab/yap/alg/search"
+	"github.com/OnlpLab/yap/alg/transition"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
+	"github.com/OnlpLab/yap/nlp/parser/disambig"
 
-	nlp "yap/nlp/types"
+	nlp "github.com/OnlpLab/yap/nlp/types"
 
 	"fmt"
 	"log"

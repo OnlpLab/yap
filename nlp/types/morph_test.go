@@ -1,7 +1,7 @@
 package types
 
 import (
-	G "yap/alg/graph"
+	G "github.com/OnlpLab/yap/alg/graph"
 	"testing"
 )
 

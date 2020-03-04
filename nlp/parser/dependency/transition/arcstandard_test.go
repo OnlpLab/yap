@@ -2,9 +2,9 @@ package transition
 
 // TODO: fix arc standard for poproot
 // import (
-// 	. "yap/alg/transition"
-// 	nlp "yap/nlp/types"
-// 	"yap/util"
+// 	. "github.com/OnlpLab/yap/alg/transition"
+// 	nlp "github.com/OnlpLab/yap/nlp/types"
+// 	"github.com/OnlpLab/yap/util"
 // 	"reflect"
 // 	"testing"
 // )

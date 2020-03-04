@@ -1,16 +1,16 @@
 package app
 
 import (
-	"yap/nlp/format/conllu"
-	"yap/nlp/format/lattice"
-	"yap/nlp/format/lex"
-	"yap/nlp/format/raw"
-	"yap/util"
+	"github.com/OnlpLab/yap/nlp/format/conllu"
+	"github.com/OnlpLab/yap/nlp/format/lattice"
+	"github.com/OnlpLab/yap/nlp/format/lex"
+	"github.com/OnlpLab/yap/nlp/format/raw"
+	"github.com/OnlpLab/yap/util"
 
-	"yap/nlp/parser/ma"
-	"yap/nlp/parser/xliter8"
-	nlp "yap/nlp/types"
-	// "yap/util"
+	"github.com/OnlpLab/yap/nlp/parser/ma"
+	"github.com/OnlpLab/yap/nlp/parser/xliter8"
+	nlp "github.com/OnlpLab/yap/nlp/types"
+	// "github.com/OnlpLab/yap/util"
 
 	"fmt"
 	"log"
