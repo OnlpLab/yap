@@ -30,6 +30,7 @@ var (
 	terminalStack int
 	paramFunc nlp.MDParam
 	jointLock sync.Mutex
+	beam *search.Beam
 )
 
 func JointParserInitialize() {
@@ -157,19 +158,7 @@ func JointParserInitialize() {
 	jointTrans.MDTransition = app.MD
 	jointTrans.JointStrategy = app.JointStrategy
 	transitionSystem = transition.TransitionSystem(jointTrans)
-}
-
-func JointParseAmbiguousLattices(input string) (string, string, string) {
-	jointLock.Lock()
-	log.Println("Reading ambiguous lattices")
-	log.Println("input:\n",input)
-	reader := strings.NewReader(input)
-	lAmb, lAmbE := lattice.Read(reader, 0)
-	if lAmbE != nil {
-		panic(fmt.Sprintf("Failed reading raw input - %v", lAmbE))
-	}
-	predAmbLat := lattice.Lattice2SentenceCorpus(lAmb, app.EWord, app.EPOS, app.EWPOS, app.EMorphProp, app.EMHost, app.EMSuffix)
-	conf := &joint.JointConfig{
+	joinConf := &joint.JointConfig{
 		SimpleConfiguration: SimpleConfiguration{
 			EWord: app.EWord,
 			EPOS: app.EPOS,
@@ -189,10 +178,10 @@ func JointParseAmbiguousLattices(input string) (string, string, string) {
 		},
 		MDTrans: app.MD,
 	}
-	beam := &search.Beam{
+	beam = &search.Beam{
 		TransFunc: transitionSystem,
 		FeatExtractor: extractor,
-		Base: conf,
+		Base: joinConf,
 		Size: app.BeamSize,
 		ConcurrentExec: app.ConcurrentBeam,
 		Transitions: app.ETrans,
@@ -200,6 +189,18 @@ func JointParseAmbiguousLattices(input string) (string, string, string) {
 	}
 	beam.Model = model
 	beam.ShortTempAgenda = true
+}
+
+func JointParseAmbiguousLattices(input string) (string, string, string) {
+	jointLock.Lock()
+	log.Println("Reading ambiguous lattices")
+	log.Println("input:\n",input)
+	reader := strings.NewReader(input)
+	lAmb, lAmbE := lattice.Read(reader, 0)
+	if lAmbE != nil {
+		panic(fmt.Sprintf("Failed reading raw input - %v", lAmbE))
+	}
+	predAmbLat := lattice.Lattice2SentenceCorpus(lAmb, app.EWord, app.EPOS, app.EWPOS, app.EMorphProp, app.EMHost, app.EMSuffix)
 	parsedGraphs := app.Parse(predAmbLat, beam)
 	graphAsConll := conll.MorphGraph2ConllCorpus(parsedGraphs)
 	buf1 := new(bytes.Buffer)
